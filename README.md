@@ -1,106 +1,100 @@
 # 🎭 ALTINAY ANI ÜRETİCİ
 
-Her şeyle anısı olan efsane arkadaşınız Altınay için özel anı üretici uygulaması!
+Her şeyle anısı olan efsane arkadaşınız Altınay için AI destekli anı üretici!
 
-✨ **Google Gemini API ile çalışır - TAMAMEN ÜCRETSİZ!**
+✨ **Google Gemini ile çalışır - TAMAMEN ÜCRETSİZ!**
 
-## 🌐 ONLINE KULLAN (Kurulum Gerektirmez!)
+---
 
-**Uygulamayı direk kullan:**
+## 🌐 HEMEN KULLAN
+
+**İnternetten direk kullan:**
 👉 **https://altinay-ani.streamlit.app**
 
-Hiçbir şey yüklemeye gerek yok, link aç ve kullan! 🎉
+Hiçbir kurulum gerektirmez! Link aç, kullan! 🎉
 
 ---
 
-## 💻 Kendi Bilgisayarında Çalıştırmak İstersen
+## 🚀 KENDİ LİNKİNİ OLUŞTUR (5 Dakika)
 
-### 1️⃣ Projeyi İndir
-```bash
-git clone https://github.com/KULLANICI_ADIN/altinay-ani-uretici.git
-cd altinay-ani-uretici
+**Arkadaşlarının kullanması için kendi linkini oluştur:**
+
+### 1️⃣ Gemini API Anahtarı Al (Bedava!)
+```
+https://makersuite.google.com/app/apikey
+→ Create API Key → Kopyala
 ```
 
-### 2️⃣ Kütüphaneleri Yükle
-```bash
-pip install -r requirements.txt
+### 2️⃣ Bu Projeyi GitHub'a Yükle
+```
+1. github.com → New repository
+2. İsim: altinay-ani-uretici
+3. Public seç
+4. Bu 3 dosyayı yükle:
+   - altinay_ani.py
+   - requirements.txt
+   - README.md
 ```
 
-### 3️⃣ Gemini API Anahtarını Al
-
-**ÜCRETSİZ API Anahtarı:**
-1. Git: https://makersuite.google.com/app/apikey
-2. Google hesabınla giriş yap
-3. "Create API Key" tıkla
-4. Anahtarı kopyala
-5. ✅ Kredi kartı gerektirmez!
-
-### 4️⃣ API Anahtarını Ayarla
-
-`.streamlit/secrets.toml` dosyası oluştur:
-```toml
-GEMINI_API_KEY = "your-api-key-here"
+### 3️⃣ Streamlit Cloud'a Deploy
+```
+1. share.streamlit.io → New app
+2. Repository seç
+3. Secrets ekle:
+   GEMINI_API_KEY = "anahtarın"
+4. Deploy!
 ```
 
-### 5️⃣ Çalıştır
-```bash
-streamlit run altinay_ani.py
-```
+**Detaylı anlatım:** `GITHUB_STREAMLIT_DEPLOY.md` dosyasına bak!
 
 ---
-
-## 🚀 Kendi Linkini Oluştur (Streamlit Cloud)
-
-1. Bu projeyi GitHub'a yükle
-2. https://share.streamlit.io/ → "New app"
-3. Repository seç
-4. Secrets'a ekle: `GEMINI_API_KEY = "anahtarın"`
-5. Deploy!
-
-**Detaylı anlatım:** `GEMINI_KURULUM.md` dosyasına bak
 
 ## 📖 Nasıl Kullanılır?
 
-1. **Anahtar kelimeler** girin (örn: "pizza, kedi, matematik sınavı")
-2. **Yıl** seçin (1990-2024)
-3. **Anı tonu** ayarlayın (Komik, Dramatik, Nostaljik, vb.)
-4. **Anı Üret** butonuna tıklayın
-5. Altınay'ın muhteşem anısını okuyun! 😄
-
-## ✨ Özellikler
-
-- 🎨 5 farklı anı tonu (Dramatik, Komik, Nostaljik, Epik, Absürt)
-- 📅 1990-2024 yıl aralığı
-- 🔑 Çoklu anahtar kelime desteği
-- 🎭 Claude AI ile gerçekçi anı üretimi
-- 💫 Kullanıcı dostu arayüz
-
-## 💡 İpuçları
-
-- Ne kadar absürt kelimeler girerseniz o kadar eğlenceli sonuçlar alırsınız
-- Farklı tonları deneyerek aynı kelimelerle farklı anılar üretebilirsiniz
-- Virgülle ayırarak birden fazla anahtar kelime kullanın
-
-## 🎯 Örnek Kullanımlar
-
-**Örnek 1:**
-- Anahtar Kelimeler: `köpek balığı, matematik, patates`
-- Yıl: `2005`
-- Ton: `Absürt`
-
-**Örnek 2:**
-- Anahtar Kelimeler: `konsol oyunu, yaz tatili`
-- Yıl: `1998`
-- Ton: `Nostaljik`
-
-## ⚠️ Not
-
-Bu uygulama tamamen eğlence amaçlıdır. Üretilen tüm anılar yapay zeka tarafından oluşturulan kurgusal içeriklerdir.
-
-## 📝 Lisans
-
-Eğlence amaçlı açık kaynak proje
+1. **Anahtar kelimeler** gir (örn: pizza, kedi, matematik)
+2. **Yıl** seç (1990-2024)
+3. **Ton** seç (Komik, Dramatik, Nostaljik, Epik, Absürt)
+4. **Anı Üret** butonuna bas
+5. Altınay'ın muhteşem anısını oku! 😄
 
 ---
 
-**Yapımcı:** İyi eğlenceler! 🎭
+## ✨ Özellikler
+
+- 🎨 5 farklı anı tonu
+- 📅 1990-2024 yıl aralığı
+- 🔑 Çoklu anahtar kelime desteği
+- 🤖 Google Gemini AI destekli
+- 💫 Kullanıcı dostu arayüz
+- 💰 **Tamamen ücretsiz!**
+
+---
+
+## 💰 Ücret Bilgisi
+
+| Servis | Ücret |
+|--------|-------|
+| Google Gemini API | **BEDAVA** ✅ |
+| Streamlit Cloud | **BEDAVA** ✅ |
+| GitHub | **BEDAVA** ✅ |
+
+**Kredi kartı gerektirmez!** 🎊
+
+---
+
+## 📂 Dosyalar
+
+- `altinay_ani.py` - Ana uygulama
+- `requirements.txt` - Gerekli kütüphaneler
+- `GITHUB_STREAMLIT_DEPLOY.md` - Detaylı kurulum rehberi
+- `SUPER_BASIT_KURULUM.md` - Yerel kullanım rehberi
+
+---
+
+## 🐛 Sorun mu var?
+
+**GITHUB_STREAMLIT_DEPLOY.md** dosyasındaki sorun giderme bölümüne bak!
+
+---
+
+**İyi eğlenceler! 🎭**
